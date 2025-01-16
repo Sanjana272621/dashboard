@@ -1,0 +1,13 @@
+
+//function to convert pixels into rems
+//16 pixels = 1 rem
+
+@function rem($pixels, $content : 16){
+    @return ($ixels / $content) * 1rem;
+}
+
+/*
+h1 {
+    font-size: rem(30);
+}
+*/
